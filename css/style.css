@@ -141,56 +141,61 @@ font-weight: 100;
     margin-top: 15px;
 }
 
-.block1{
+.sport{
     height: 200px;
     background: transparent;
     border: 1px solid #FF652F;
     border-radius: 10px;
     margin-right: 10px;
+    padding-top: 5px;
     color:#EEE2DC;
     display: flex;
     justify-content: center;
 
 }
 
-.block2{
+.entertainment{
     height: 200px;
     background: transparent;
     border: 1px solid #FFE400;
     border-radius: 10px;
     margin-right: 10px;
+    padding-top: 5px;
     color:#EEE2DC;
     display: flex;
     justify-content: center;
 }
 
-.block3{
+.science{
     height: 200px;
     background: transparent;
     border: 1px solid #FF652F;
     border-radius: 10px;
     margin-right: 10px;
+    padding-top: 5px;
     color:#EEE2DC;
     display: flex;
     justify-content: center;
     }
 
-.block4{
+.business{
     height: 200px;
     background: transparent;
     border: 1px solid #FFE400;
     border-radius: 10px;
     margin-right: 10px;
+    padding-top: 5px;
     color:#EEE2DC;
     display: flex;
     justify-content: center;
     }
 
-.block5{
+.tehnology{
     height: 200px;
     background: transparent;
     border: 1px solid #FF652F;
     border-radius: 10px;
+    padding-top: 5px;
     color:#EEE2DC;
     display: flex;
     justify-content: center;
