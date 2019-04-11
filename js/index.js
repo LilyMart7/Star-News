@@ -8,10 +8,10 @@ function Init() {
 
     var callbackFunction = [
         { news: sportNews },
-        { news: entertainmentNews },
-        { news: scienceNews },
-        { news: businessNews },
-        { news: technologyNews }
+        /*  { news: entertainmentNews },
+          { news: scienceNews },
+          { news: businessNews },
+          { news: technologyNews }*/
 
     ];
 
@@ -61,7 +61,7 @@ function Request(category, apiKey, callback) {
     };
 }
 
-function sportNews(news) {
+/*function sportNews(news) {
     console.log("sportNews", news);
     var sport = document.querySelector("#sport");
     var a = document.createElement("a");
@@ -84,7 +84,7 @@ function sportNews(news) {
 }
 
 function entertainmentNews(news) {
-    console.log("entertainmentNews", news);
+    console.log("entertainmentNews", news.articles);
     var entertainment = document.querySelector("#entertainment");
     var a = document.createElement("a");
     a.innerText = news.articles[1].title;
@@ -106,7 +106,7 @@ function entertainmentNews(news) {
 }
 
 function scienceNews(news) {
-    console.log("scienceNews", news);
+    console.log("scienceNews", news.articles);
     var science = document.querySelector("#science");
     var a = document.createElement("a");
     a.innerText = news.articles[2].title;
@@ -128,7 +128,7 @@ function scienceNews(news) {
 }
 
 function businessNews(news) {
-    console.log("businessNews", news);
+    console.log("businessNews", news.articles);
     var business = document.querySelector("#business");
     var a = document.createElement("a");
     a.innerText = news.articles[3].title;
@@ -147,10 +147,10 @@ function businessNews(news) {
         business.appendChild(p);
         p.appendChild(a);
     }
-}
+}*/
 
-function technologyNews(news) {
-    console.log("technologyNews", news);
+/*function technologyNews(news) {
+    console.log("technologyNews", news.articles);
     var technology = document.querySelector("#technology");
     var a = document.createElement("a");
     a.innerText = news.articles[4].title;
@@ -169,8 +169,42 @@ function technologyNews(news) {
         technology.appendChild(p);
         p.appendChild(a);
     }
+}*/
+
+
+function sportNews(news) {
+    console.log("sportNews", news);
+    var sportElem = document.querySelector("#sport");
+    console.log(sportElem);
+
+    for (var i = 0; i < 5; i++){
+        
+    }
+
+        var h3 = document.createElement('h3');
+
+    h3.className = "news_title";
+    h3.innerHTML = news.articles[0].title;
+    sportElem.appendChild(h3);
+
+    var img = document.createElement('img');
+    img.setAttribute("src", news.articles[0].urlToImage);
+    img.setAttribute("alt", news.articles[0].title);
+    h3.className = "news_img";
+    sportElem.appendChild(img);
+
+    var desc = document.createElement('p');
+    desc.className = "news_description";
+    desc.innerHTML = news.articles[0].description;
+    sportElem.appendChild(desc);
+
+    var author = document.createElement('span');
+    author.className = "news_author";
+    author.innerHTML = news.articles[0].author;
+    sportElem.appendChild(author);
+
+    var publishedAt = document.createElement('span');
+    publishedAt.className = "news_publishedAt";
+    publishedAt.innerHTML = news.articles[0].publishedAt;
+    sportElem.appendChild(publishedAt);
 }
-
-
-
-
