@@ -65,7 +65,6 @@ body{
 }
 
 .mainBody{
-    height: 500px;
     background: transparent;
     /*border: 1px solid #28a745;*/
     border-radius: 10px;
@@ -75,10 +74,11 @@ body{
 .line{
     height: 1px;
     background: #FFE400;
+    margin-top: 15px;
 }
 
 .footer-top{
-    margin-top: 10px;
+    margin: 10px 0;
 }
 
 .social{
@@ -139,75 +139,82 @@ font-weight: 100;
     display: flex;
     justify-content: space-between;
     margin-top: 15px;
+    height: 350px;
+    line-height: 30px;
 }
 
-.sport{
-    height: 200px;
+.label{
+    color: #EEE2DC;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.block1{
     background: transparent;
     border: 1px solid #FF652F;
     border-radius: 10px;
     margin-right: 10px;
-    padding-top: 5px;
-    color:#EEE2DC;
-    display: flex;
-    justify-content: center;
-
 }
 
-.entertainment{
-    height: 200px;
+.block2{
+    background: transparent;
+    border: 1px solid #FFE400;
+    border-radius: 10px;
+}
+
+.block3{
     background: transparent;
     border: 1px solid #FFE400;
     border-radius: 10px;
     margin-right: 10px;
-    padding-top: 5px;
-    color:#EEE2DC;
-    display: flex;
-    justify-content: center;
 }
 
-.science{
-    height: 200px;
+.block4{
+    background: transparent;
+    border: 1px solid #FF652F;
+    border-radius: 10px;
+}
+
+.block5{
     background: transparent;
     border: 1px solid #FF652F;
     border-radius: 10px;
     margin-right: 10px;
-    padding-top: 5px;
-    color:#EEE2DC;
-    display: flex;
-    justify-content: center;
-    }
+}
 
-.business{
-    height: 200px;
+.block6{
     background: transparent;
     border: 1px solid #FFE400;
     border-radius: 10px;
-    margin-right: 10px;
-    padding-top: 5px;
-    color:#EEE2DC;
-    display: flex;
-    justify-content: center;
-    }
-
-.tehnology{
-    height: 200px;
-    background: transparent;
-    border: 1px solid #FF652F;
-    border-radius: 10px;
-    padding-top: 5px;
-    color:#EEE2DC;
-    display: flex;
-    justify-content: center;
-    }
-
-
+    border-style: dashed;
+}
 
 .blocks2{
-    display: flex;
     height: 300px;
-    justify-content: space-between;
-    margin-top: 15px;
-    border: 1px solid #FFE400;
+    margin: 15px 0;
+    border: 1px solid #28a745;
     border-radius: 10px;
+    padding: 0;
+}
+
+.sport_news{
+    color:#EAE7DC;
+     
+}
+.entertainment_news{
+    color:#EAE7DC;
+     
+}
+.science_news{
+    color:#EAE7DC;
+     
+}
+.business_news{
+    color:#EAE7DC;
+     
+}
+.technology_news{
+    color:#EAE7DC;
+     
 }
