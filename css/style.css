@@ -148,6 +148,7 @@ font-weight: 100;
     display: flex;
     justify-content: center;
     padding-top: 10px;
+    font-size: 26px;
 }
 
 .block1{
@@ -244,15 +245,15 @@ font-weight: 100;
 }
 
 h3{
-    color: white;
+    color: #FF652F;
     font-size: 18px;
     font-style: italic;
     
 }
 
 .news_img{
-    width: 300px;
-    height:150px;
+    width: 500px;
+    height:300px;
 }
 
 .news_description{
