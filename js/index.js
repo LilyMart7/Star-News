@@ -20,6 +20,8 @@ function Init() {
 
         Request(category[i], apiKey, callbackFunction[i].news);
 
+
+        
 }
 
 function Request(category, apiKey, callback) {
