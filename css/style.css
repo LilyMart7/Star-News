@@ -248,10 +248,10 @@ h3{
     color: #FF652F;
     font-size: 18px;
     font-style: italic;
-    
+    margin-top: 10px;
 }
 
-.news_img{
+.news_img{  
     width: 500px;
     height:300px;
 }
