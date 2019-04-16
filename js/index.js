@@ -48,6 +48,7 @@ function Request(category, apiKey, callback) {
 }
 
 
+
 function sportNews(news) {
     console.log("sportNews", news.articles);
     var sportElem = document.querySelector("#sport");
